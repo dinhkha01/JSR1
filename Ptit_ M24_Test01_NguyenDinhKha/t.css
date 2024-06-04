@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container > div {
+  width: 50%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+.form > input {
+  flex-grow: 1;
+}
+.button {
+  border: 1px solid white;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+}
+.center {
+  text-align: center;
+  margin: 15px 60px;
+}
+.mid {
+  background-color: whitesmoke;
+}
+.mb-3 {
+  justify-content: space-between;
+}
+.but {
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid white;
+}
+.but:hover {
+  background-color: pink;
+  border: 1px solid pink;
+}
+#in {
+  border: 1px solid white;
+}
